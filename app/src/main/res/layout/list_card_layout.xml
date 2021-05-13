@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/card"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_margin="5dp"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ListEntry"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tittel"
+                    android:textSize="20dp"
+                    android:layout_weight="1">
+
+                </TextView>
+
+                <ImageButton
+                    android:id="@+id/removeListCardButton"
+                    android:background="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/ic_action_name"
+                    tools:ignore="VectorDrawableCompat"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_weight="0.1"/>
+
+            </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/ListProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_marginRight="40dp"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:min="0"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "387781213079",
+    "firebase_url": "https://superlist-257b1-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "superlist-257b1",
+    "storage_bucket": "superlist-257b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387781213079:android:acc9ba0f1b11bf15efa2d2",
+        "android_client_info": {
+          "package_name": "com.example.superlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387781213079-2sssh9tus854l9kgcslpfp0dbbl5tho2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDan1Ue4-L5FrLMNpnLMweUCOgcSOtmdWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387781213079-2sssh9tus854l9kgcslpfp0dbbl5tho2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
